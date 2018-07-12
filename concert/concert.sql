@@ -1,0 +1,22 @@
+CREATE TABLE  `rubatto`.`concert` (
+`num` INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`id` VARCHAR( 20 ) NOT NULL ,
+`name` VARCHAR( 20 ) NOT NULL ,
+`nick` VARCHAR( 20 ) NOT NULL ,
+`subject` VARCHAR( 100 ) NOT NULL ,
+`content` TEXT NOT NULL ,
+`regist_day` DATETIME NOT NULL ,
+`hit` INT NOT NULL ,
+`is_html` TINYINT( 1 ) NOT NULL ,
+`file_name_0` VARCHAR( 40 ) NOT NULL ,
+`file_name_1` VARCHAR( 40 ) NOT NULL ,
+`file_name_2` VARCHAR( 40 ) NOT NULL ,
+`file_name_3` VARCHAR( 40 ) NOT NULL ,
+`file_name_4` VARCHAR( 40 ) NOT NULL ,
+`file_copied_0` VARCHAR( 40 ) NOT NULL ,
+`file_copied_1` VARCHAR( 40 ) NOT NULL ,
+`file_copied_2` VARCHAR( 40 ) NOT NULL ,
+`file_copied_3` VARCHAR( 40 ) NOT NULL ,
+`file_copied_4` VARCHAR( 40 ) NOT NULL ,
+INDEX (  `id` )
+)

@@ -1,0 +1,31 @@
+/*본문 col2영역 기본 스타일*/
+#content #col2{
+	width: 810px;
+	margin-left: 15px;
+	float: left;
+	min-height: 600px;
+}
+
+/*col2의 타이틀 이미지*/
+#content #col2 #title{
+	height: 30px;
+	margin-top: 45px;
+	border-bottom: 1px solid #dddddd;
+}
+
+.search_form{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.list_search1{
+	float: left;
+}
+
+.list_search2{
+	float: right;
+}
+
+.list_search3{
+	float: right;
+}
